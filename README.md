@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🥭Python-Algorithm-Study🥭</h1>
+  <h1>🖥Python-Algorithm-Study🖥</h1>
 </div>
 <br/>
 
