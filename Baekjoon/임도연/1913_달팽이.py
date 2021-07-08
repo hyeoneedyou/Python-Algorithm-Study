@@ -18,8 +18,13 @@ array = [[0 for _ in range(n)] for _ in range(n)]
 array[x][y] = 1
 cnt = 2
 
-while x != 0 and y != 0: # 2 3 3 에서 오류 수정해야함
-    if array[x + dx[d - 1 if d != 0 else 3]][y + dy[d - 1 if d != 0 else 3]] == 0:
+while True: # 3 2 3 에서 오류 수정해야함
+
+
+    if x == 0 and y == 0:
+        break
+
+    if array[x + dx[d]][y + dy[d]] == 0:
         x += dx[d]  # 보는 방향으로 이동
         y += dy[d]
         pre_d = d
@@ -28,10 +33,12 @@ while x != 0 and y != 0: # 2 3 3 에서 오류 수정해야함
         x += dx[pre_d]
         y += dy[pre_d]
     array[x][y] = cnt
+    if cnt == m:
+        mx, my = x + 1, y + 1
     cnt += 1
-    print(d, x, y)
 
 for i in range(n):
     for j in range(n):
-        print(array[i][j], end='')
+        print(array[i][j], end=' ')
     print()
+print(mx, my)
