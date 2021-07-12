@@ -6,7 +6,6 @@
 n = int(input())
 m = int(input())
 
-
 x, y = n // 2, n // 2
 mx, my = x, y
 dx = [-1, 0, 1, 0] #상우하좌
@@ -18,9 +17,7 @@ array = [[0 for _ in range(n)] for _ in range(n)]
 array[x][y] = 1
 cnt = 2
 
-while True: # 3 2 3 에서 오류 수정해야함
-
-
+while True:
     if x == 0 and y == 0:
         break
 
