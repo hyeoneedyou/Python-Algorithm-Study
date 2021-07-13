@@ -75,7 +75,10 @@
 | 1주차 | Greedy | <a href="https://www.acmicpc.net/problem/14916" target="_blank">14916</a> | <a href="https://www.acmicpc.net/problem/14916" target="_blank">거스름돈</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |
 | 1주차 | Greedy | <a href="https://www.acmicpc.net/problem/1343" target="_blank">1343</a> | <a href="https://www.acmicpc.net/problem/1343" target="_blank">폴리오미노</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |
 | 1주차 | Implementation | <a href="https://www.acmicpc.net/problem/2753" target="_blank">2753</a> | <a href="https://www.acmicpc.net/problem/2753" target="_blank">윤년</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/2.svg"/> |
-| 1주차 | Implementation | <a href="https://www.acmicpc.net/problem/1913" target="_blank">1913</a> | <a href="https://www.acmicpc.net/problem/1913" target="_blank">달팽이</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> 
+| 1주차 | Implementation | <a href="https://www.acmicpc.net/problem/1913" target="_blank">1913</a> | <a href="https://www.acmicpc.net/problem/1913" target="_blank">달팽이</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>
+| 2주차 |  DFS&BFS  | <a href="https://www.acmicpc.net/problem/2606" target="_blank">2606</a> | <a href="https://www.acmicpc.net/problem/2606" target="_blank">바이러스</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/graph_traversal/2606">바로가기</a> |
+| 2주차 |  DFS&BFS  | <a href="https://www.acmicpc.net/problem/1260" target="_blank">1260</a> | <a href="https://www.acmicpc.net/problem/1260" target="_blank">DFS와 BFS</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | <a href="./../solution/graph_traversal/1260">바로가기</a> |
+| 2주차 |  DFS&BFS  | <a href="https://www.acmicpc.net/problem/11725" target="_blank">11725</a> | <a href="https://www.acmicpc.net/problem/11725" target="_blank">트리의 부모 찾기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | <a href="./../solution/graph_traversal/11725">바로가기</a> |
 
 </details>
 
