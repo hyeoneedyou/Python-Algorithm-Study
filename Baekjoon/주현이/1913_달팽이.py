@@ -3,8 +3,11 @@ b = int(input())
 a = [[1]*n for _ in range(n)]
 
 number = n**2
-cycle = n - 3
-for j in range(0, cycle):
+
+x = 0
+y = 0
+
+for j in range(0, n):
     for i in range(0+j, n-j):
         a[i][0+j] = number
         number -= 1
@@ -32,5 +35,3 @@ for i in range(n):
             x = i+1
             y = j+1
 print(x, y)
-
-# 런타임에러
