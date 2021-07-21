@@ -7,9 +7,10 @@ dfs_visited = [False] * (n+1)
 bfs_visited = [False] * (n+1)
 graph = [[] for _ in range(n+1)]
 
-'''
-어떤 노드끼리 연결되었는지 어떻게 알까
-'''
+for _ in range(m):
+    a, b = map(int, input().split())
+    graph[a].append(b)
+    graph[b].append(a)
 
 def dfs(graph, v, dfs_visited):
     dfs_visited[v] = True
