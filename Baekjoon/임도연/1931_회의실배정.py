@@ -10,11 +10,11 @@ array = []
 for i in range(n):
     array.append(list(map(int, input().split())))
 
-array.sort()
-result = [sorted(array, key=lambda array:array[1])[0]]
-idx = 1
-while idx != n:
-    if result[len(result) - 1][1] <= array[idx][0]:
-        result.append(array[idx])
-    idx += 1
+array.sort(key=lambda array:(array[1], array[0]))
+result = [array[0]]
+
+for i in range(1, n):
+    if result[len(result) - 1][1] <= array[i][0]:
+        result.append(array[i])
+
 print(len(result))
