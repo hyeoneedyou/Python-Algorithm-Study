@@ -22,7 +22,7 @@
 - 스터디날까지 해당하는 주차의 이코테 챕터를 읽고 정해진 백준 문제를 풀어 내용을 정리해 Pull Request를 보낸다.
   - 책의 개념과 문제 풀이는 분류하여 Commit 한다.
   - Pull Request 양식을 지키지 않을 시 거절한다.
-- PR 제출 마감은 스터디 당일인 매주 목요일 20시까지이다.
+- PR 제출 마감은 당일 스터디 시작 전지이다.
 - 문제 선정은 매주 온라인 스터디 종료 후 다같이 선정하여 Readme에 등록한다.
 - 백준 문제의 답은 스터디 당일날 서로의 풀이를 확인한 후에 다같이 본다.
 
@@ -79,7 +79,12 @@
 | 2주차 |  DFS&BFS  | <a href="https://www.acmicpc.net/problem/2606" target="_blank">2606</a> | <a href="https://www.acmicpc.net/problem/2606" target="_blank">바이러스</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/graph_traversal/2606">바로가기</a> |
 | 2주차 |  DFS&BFS  | <a href="https://www.acmicpc.net/problem/1260" target="_blank">1260</a> | <a href="https://www.acmicpc.net/problem/1260" target="_blank">DFS와 BFS</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | <a href="./../solution/graph_traversal/1260">바로가기</a> |
 | 2주차 |  DFS&BFS  | <a href="https://www.acmicpc.net/problem/11725" target="_blank">11725</a> | <a href="https://www.acmicpc.net/problem/11725" target="_blank">트리의 부모 찾기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | <a href="./../solution/graph_traversal/11725">바로가기</a> |
-
+| 3주차 |  Sorting   | <a href="https://www.acmicpc.net/problem/11399" target="_blank">2606</a> | <a href="https://www.acmicpc.net/problem/11399" target="_blank">ATM</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/graph_traversal/2606">바로가기</a> |
+| 3주차 |  Sorting  | <a href="https://www.acmicpc.net/problem/1931" target="_blank">1260</a> | <a href="https://www.acmicpc.net/problem/1931" target="_blank">회의실 배정</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | <a href="./../solution/graph_traversal/1260">바로가기</a> |
+| 3주차 |  Sorting  | <a href="https://www.acmicpc.net/problem/1026" target="_blank">11725</a> | <a href="https://www.acmicpc.net/problem/1026" target="_blank">보물</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/graph_traversal/11725">바로가기</a> |
+| 4주차|  Binary Search  | <a href="https://www.acmicpc.net/problem/2417" target="_blank">2417</a> | <a href="https://www.acmicpc.net/problem/2417" target="_blank">정수 제곱근</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | <a href="./../solution/binary_search/2417">바로가기</a> |
+| 4주차 |  Binary Search  | <a href="https://www.acmicpc.net/problem/10815" target="_blank">10815</a> | <a href="https://www.acmicpc.net/problem/10815" target="_blank">숫자 카드</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/binary_search/10815">바로가기</a> |
+| 4주차 |  Binary Search  | <a href="https://www.acmicpc.net/problem/2805" target="_blank">2805</a> | <a href="https://www.acmicpc.net/problem/2805" target="_blank">나무 자르기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/binary_search/2805">바로가기</a> |
 </details>
 
 ---
