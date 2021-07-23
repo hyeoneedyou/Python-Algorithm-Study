@@ -1,7 +1,7 @@
 n = int(input())
-t = []
-for _ in range(n):
-    a = int(input())
-    t.append(a)
+t = list(map(int, input().split()))
 result = sorted(t)
-print(result)
+res = 0
+for i in range(n):
+    res += result[i] * (n - i)
+print(res)
