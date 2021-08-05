@@ -88,6 +88,9 @@
 | 5주차 |  Dynamic Programming  | <a href="https://www.acmicpc.net/problem/2839" target="_blank">2839</a> | <a href="https://www.acmicpc.net/problem/2839" target="_blank">설탕 배달</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/> | <a href="./../solution/dynamic_programming_1/2839">바로가기</a> |
 | 5주차 |  Dynamic Programming  | <a href="https://www.acmicpc.net/problem/17626" target="_blank">17626</a> | <a href="https://www.acmicpc.net/problem/17626" target="_blank">Four Squares</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | <a href="./../solution/dynamic_programming_1/17626">바로가기</a> |
 | 5주차 |  Dynamic Programming  | <a href="https://www.acmicpc.net/problem/11727" target="_blank">11727</a> | <a href="https://www.acmicpc.net/problem/11727" target="_blank">2×n 타일링 2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/dynamic_programming_1/11727">바로가기</a> |
+| 6주차 |  Shortest Path  | <a href="https://www.acmicpc.net/problem/18352" target="_blank">18352</a> | <a href="https://www.acmicpc.net/problem/18352" target="_blank">특정 거리의 도시 찾기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> |                      |
+| 6주차 |  Shortest Path  | <a href="https://www.acmicpc.net/problem/11403" target="_blank">11403</a> | <a href="https://www.acmicpc.net/problem/11403" target="_blank">경로 찾기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |                      |
+| 6주차 |  Shortest Path  | <a href="https://www.acmicpc.net/problem/2224" target="_blank">2224</a> | <a href="https://www.acmicpc.net/problem/2224" target="_blank">명제 증명</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |                      |
 </details>
 
 ---
