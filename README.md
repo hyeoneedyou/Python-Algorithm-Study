@@ -85,9 +85,8 @@
 | 4주차|  Binary Search  | <a href="https://www.acmicpc.net/problem/2417" target="_blank">2417</a> | <a href="https://www.acmicpc.net/problem/2417" target="_blank">정수 제곱근</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | <a href="./../solution/binary_search/2417">바로가기</a> |
 | 4주차 |  Binary Search  | <a href="https://www.acmicpc.net/problem/10815" target="_blank">10815</a> | <a href="https://www.acmicpc.net/problem/10815" target="_blank">숫자 카드</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./../solution/binary_search/10815">바로가기</a> |
 | 4주차 |  Binary Search  | <a href="https://www.acmicpc.net/problem/2805" target="_blank">2805</a> | <a href="https://www.acmicpc.net/problem/2805" target="_blank">나무 자르기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/binary_search/2805">바로가기</a> |
-</details>
 | 5주차 |  Dynamic Programming  | <a href="https://www.acmicpc.net/problem/2839" target="_blank">2839</a> | <a href="https://www.acmicpc.net/problem/2839" target="_blank">설탕 배달</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/> | <a href="./../solution/dynamic_programming_1/2839">바로가기</a> |
 | 5주차 |  Dynamic Programming  | <a href="https://www.acmicpc.net/problem/17626" target="_blank">17626</a> | <a href="https://www.acmicpc.net/problem/17626" target="_blank">Four Squares</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | <a href="./../solution/dynamic_programming_1/17626">바로가기</a> |
 | 5주차 |  Dynamic Programming  | <a href="https://www.acmicpc.net/problem/11727" target="_blank">11727</a> | <a href="https://www.acmicpc.net/problem/11727" target="_blank">2×n 타일링 2</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="./../solution/dynamic_programming_1/11727">바로가기</a> |
-
+</details>
 ---
