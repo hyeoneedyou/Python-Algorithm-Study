@@ -1,15 +1,12 @@
 n = int(input())
-a = []
 a = list(map(int, input().split()))
-print(a)
-cnt = 1
-# present = a[0]
-# for i in range(n-1):
-#     if present < a[i+1]:
-#         cnt += 1
-#         present = a[i+1]
 
-present = min(a)
-idx = a.index(present)
-a.remove(present)
-print(idx)
+dp = [1] * n
+
+for i in range(1, n):
+    for j in range(i):
+        if a[j] < a[i]:
+            dp[i] = max(dp[j]+1, dp[i])
+
+ans = max(dp)
+print(ans)
