@@ -100,7 +100,7 @@
 
 | 날짜 | 난이도 | 번호 | 문제 이름 |
 | :--: |:------:|:----:|:---------:|
-| 9/12 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [11728](https://www.acmicpc.net/problem/11728) | [배열 합치기](https://www.acmicpc.net/problem/11728) |
+| 9/12 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [1965](https://www.acmicpc.net/problem/1965) | [상자넣기](https://www.acmicpc.net/problem/1965) |
 </details>
 
 ---
