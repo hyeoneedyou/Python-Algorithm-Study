@@ -93,4 +93,14 @@
 | 6주차 |  Shortest Path  | <a href="https://www.acmicpc.net/problem/2224" target="_blank">2224</a> | <a href="https://www.acmicpc.net/problem/2224" target="_blank">명제 증명</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |                      |
 </details>
 
+<details markdown="1">
+<summary><strong>Baekjoon (2021.09.12 ~ )</strong></summary>
+
+<br/>
+
+| 날짜 | 난이도 | 번호 | 문제 이름 |
+| :--: |:------:|:----:|:---------:|
+| 9/12 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [11728](https://www.acmicpc.net/problem/11728) | [배열 합치기](https://www.acmicpc.net/problem/11728) |
+</details>
+
 ---
