@@ -1,21 +1,11 @@
 n = int(input())
 boxes = list(map(int, input().split()))
 
-result = [boxes[0]]
+result = [1] * n
 
+for i in range(1, n):
+    for j in range(0, i):
+        if boxes[j] < boxes[i]:
+            result[i] = max(result[j] + 1, result[i])
 
-def replaceBox(list, box):
-    for i in range(len(list)):
-        idx = i
-        if list[i] > box:
-            break
-        array = list[:idx + 1]
-    array.append(box)
-
-    return array
-
-
-for box in boxes[1:]:
-    result = replaceBox(result, box)
-
-print(len(result))
+print(max(result))
