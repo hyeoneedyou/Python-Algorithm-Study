@@ -10,3 +10,4 @@
 | 2021.09.15 | [14467](https://www.acmicpc.net/problem/14467) | [소가길을건너간이유1](https://www.acmicpc.net/problem/14467) |  🥈5   |    🔵    |          |                                |
 | 2021.09.16 | [12871](https://www.acmicpc.net/problem/12871) |     [무한문자열](https://www.acmicpc.net/problem/12871)      |  🥈5   |    🔵    |    🟣    | math > gcd 존재, lcm은 3.9부터 |
 | 2021.09.16 | [16208](https://www.acmicpc.net/problem/16208) |       [귀찮음](https://www.acmicpc.net/problem/16208)        |  🥈5   |    🔵    |          |                                |
+| 2021.09.17 | [11256](https://www.acmicpc.net/problem/11256) |        [사탕](https://www.acmicpc.net/problem/11256)         |  🥈5   |    🔵    |          |                                |
