@@ -11,3 +11,4 @@
 | 2021.09.16 | [12871](https://www.acmicpc.net/problem/12871) |     [무한문자열](https://www.acmicpc.net/problem/12871)      |  🥈5   |    🔵    |    🟣    | math > gcd 존재, lcm은 3.9부터 |
 | 2021.09.16 | [16208](https://www.acmicpc.net/problem/16208) |       [귀찮음](https://www.acmicpc.net/problem/16208)        |  🥈5   |    🔵    |          |                                |
 | 2021.09.17 | [11256](https://www.acmicpc.net/problem/11256) |        [사탕](https://www.acmicpc.net/problem/11256)         |  🥈5   |    🔵    |          |                                |
+| 2021.09.17 | [16436](https://www.acmicpc.net/problem/16436) |    [스네이크버드](https://www.acmicpc.net/problem/16436)     |  🥈5   |    🔵    |          |       sort() vs sorted()       |
