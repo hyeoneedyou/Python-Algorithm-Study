@@ -1,34 +1,42 @@
-n = input()
-
-result = 0
-stack = []
-
-# 올바르지 못한 입력
-if n.count('(') != n.count(')') or n.count('[') != n.count(']'):
-    print(0)
-else:
+def solution(n):
+    stack = []
+    result = 0
     for c in n:
-        temp = 1
-        flag = False  # 안에 다른 종류의 괄호가 있는 경우를 체크
-        if c == '(':
-            stack.append(c)
-        elif c == '[':
-            stack.append(c)
-        elif c == ')':
-            while True:
-                if stack.pop() == '(':
-                    temp = 2
+        temp = 0
+        if c == ')':
+            while len(stack) != 0:
+                top = stack.pop()
+                if top == '(':
+                    if temp == 0:
+                        stack.append(2)
+                    else:
+                        stack.append(2 * temp)
                     break
-                elif stack.pop() == ']':
-                    flag = True
-                elif stack.pop() == '[':
-                    temp = 3
-                if flag:
-                    result *= temp
+                elif top == '[':
+                    return 0
                 else:
-                    result += temp
+                    temp += int(top)
         elif c == ']':
+            while len(stack) != 0:
+                top = stack.pop()
+                if top == '[':
+                    if temp == 0:
+                        stack.append(3)
+                    else:
+                        stack.append(3 * temp)
+                    break
+                elif top == '(':
+                    return 0
+                else:
+                    temp += int(top)
+        else:
+            stack.append(c)
 
-    print(result)
+    for s in stack:
+        if s == '(' or s == '[':
+            return 0
+        else:
+            result += s
+    return result
 
-# 닫는 괄호를 또 만나면 곱하기 아니면 더하기
+print(solution(list(input())))
