@@ -12,3 +12,4 @@
 | 2021.09.16 | [16208](https://www.acmicpc.net/problem/16208) |       [귀찮음](https://www.acmicpc.net/problem/16208)        |  🥈5   |    🔵    |          |                                |
 | 2021.09.17 | [11256](https://www.acmicpc.net/problem/11256) |        [사탕](https://www.acmicpc.net/problem/11256)         |  🥈5   |    🔵    |          |                                |
 | 2021.09.17 | [16436](https://www.acmicpc.net/problem/16436) |    [스네이크버드](https://www.acmicpc.net/problem/16436)     |  🥈5   |    🔵    |          |       sort() vs sorted()       |
+| 2021.09.18 |  [9375](https://www.acmicpc.net/problem/9375)  |     [패션왕신해빈](https://www.acmicpc.net/problem/9375)     |  🥈3   |    🔵    |          |           2차원 배열           |
