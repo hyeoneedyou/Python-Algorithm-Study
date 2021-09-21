@@ -1,7 +1,8 @@
 n = int(input())
 nums = list(map(int, input().split()))
-ans_list = []
-for i in range(n):
-    for j in range(i, n):
-        ans_list.append(sum(nums[i:j+1]))
-print(max(ans_list))
+dp = [0] * n
+dp[0] = nums[0]
+for i in range(1, n):
+    dp[i] = max(dp[i-1] + nums[i], nums[i])
+    
+print(max(dp))
