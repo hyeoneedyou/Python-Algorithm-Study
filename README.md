@@ -106,7 +106,7 @@
 | 9/23 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [1890](https://www.acmicpc.net/problem/1890) | [점프](https://www.acmicpc.net/problem/1890) |
 | 9/26 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [1660](https://www.acmicpc.net/problem/1660) | [캡틴 이다솜](https://www.acmicpc.net/problem/1660) |
 | 9/30 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [11060](https://www.acmicpc.net/problem/1660) | [점프 점프](https://www.acmicpc.net/problem/11060) |
-
+| 10/3 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [2178](https://www.acmicpc.net/problem/2178) | [미로 탐색](https://www.acmicpc.net/problem/2178) |
 </details>
 
 
