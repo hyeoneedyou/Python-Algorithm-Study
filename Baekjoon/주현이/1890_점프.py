@@ -1,47 +1,19 @@
-n = int(input())
-board = [[0] * n for _ in range(n)]
-res = []
+N = int(input())
+field = [list(map(int, input().split())) for _ in range(N)]
+answer = 0
 
-for i in range(n):
-    num = list(map(int, input().split()))
-    for j in range(n):
-        board[i][j] = num[j]
+dp = [[0] * N for _ in range(N)]  # i,j까지 올 수 있는 경우의 수를 저장
+dp[0][0] = 1
 
-print(board)
-
-
-def jump_down(x, y):
-    p = False
-    flag = True
-    jump = board[x][y]
-    if y+jump < n:
-        if board[x][y+jump] == 0:
-            flag = False
-            return flag, p
-
-        else:
-            p = True
-            return flag, p
-    else:
-        return flag, p
-
-
-def jump_right(x, y):
-    p = False
-    flag = True
-    jump = board[x][y]
-    if x+jump < n:
-        if board[x+jump][y] == 0:
-            flag = False
-            return flag, p
-
-        else:
-            p = True
-            return flag, p
-    else:
-        return flag, p
-   
-d_next, d_p  = jump_down(0, 0)
-r_next, r_p  = jump_right(0, 0)
-
-# while d_next or r_next:
+for i in range(N):
+    for j in range(N):
+        if i == N - 1 and j == N - 1:  # 끝에 도달했을 때
+            print(dp[i][j])
+            break
+        cur_cnt = field[i][j]
+        # 오른쪽으로 가기
+        if j + cur_cnt < N:
+            dp[i][j + cur_cnt] += dp[i][j]
+        # 아래로 가기
+        if i + cur_cnt < N:
+            dp[i + cur_cnt][j] += dp[i][j]
