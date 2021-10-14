@@ -11,3 +11,4 @@
 | 2021.09.26 |  [1660](https://www.acmicpc.net/problem/1660)  | [캡틴이다솜](https://www.acmicpc.net/problem/1660)  |  🥈2   |    🔴    |          |              |
 | 2021.09.30 | [11060](https://www.acmicpc.net/problem/11060) |  [점프점프](https://www.acmicpc.net/problem/11060)  |  🥈2   |    🔵    |          |              |
 | 2021.10.03 |  [2178](https://www.acmicpc.net/problem/2178)  |  [미로탐색](https://www.acmicpc.net/problem/2178)   |  🥈1   |    🟡    |    🟣    |     bfs      |
+| 2021.10.14 |  [1697](https://www.acmicpc.net/problem/1697)  |  [숨바꼭질](https://www.acmicpc.net/problem/1697)   |  🥈1   |    🟡    |    🟣    |     bfs      |
