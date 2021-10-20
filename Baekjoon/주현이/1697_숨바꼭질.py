@@ -1,26 +1,29 @@
 from collections import deque
 
 n, k = map(int, input().split())
-
-if n < k:
-    graph = [0] * k
-else:
-    graph = [0] * n
-    
-s = [1, -1, 2]
+visited = [0] * 100001
 
 
-def bfs(x, y):
-    queue = deque()
-    queue.append(x)
-    while queue:
-        x = queue.popleft()
-        for i in range(3):
-            nx = x + s[i]
+def bfs(n, k):
+    q = deque()
+    q.append([n, 0])  # node, count
+    while q:
+        x = q.popleft()
+        now = x[0]
+        cnt = x[1]
+        # 처음 방문했을 때만 append 해줘야 최소
+        if visited[now] == 0:
+            visited[now] = 1
+            if now == k:
+                break
+            if (now * 2) <= 100000:
+                q.append([now * 2, cnt + 1])
+            if (now + 1) <= 100000:
+                q.append([now + 1, cnt + 1])
+            if (now - 1) >= 0:
+                q.append([now - 1, cnt + 1])
+        
+    return cnt
 
-            if graph[nx] == 0:
-                graph[nx] = graph[x] + 1
-                queue.append(nx)
-    return graph[nx]
 
-bfs(n,k)
+print(bfs(n, k))
