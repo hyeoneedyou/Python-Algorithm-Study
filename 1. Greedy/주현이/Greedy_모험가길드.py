@@ -1,23 +1,15 @@
 n = int(input())
 p = list(map(int, input().split()))
-ans = []
-p.sort(reverse=True)
-print(p)
+p.sort()  # 오름차순 정렬이니까 항상 최소한의 모험가의 수만 포함하여 그룹 결성 -> 최대 그룹수
 
-i = 0
-while True:
-    if i+p[i] > len(p):
-        break
-    tmp = []
-    for j in range(i, i+p[i]):
-        if i + p[i] > len(p):
-            break
-        tmp.append(p[j])
-    i = j
-    ans.append(tmp)
-        
-print(len(ans))
+res = 0  # 그룹 수
+cnt = 0  # 현재 그룹에 포함된 모험가의 수
 
-print(ans)
-# 5
-# 2 3 1 2 2
+for i in p:
+    cnt += 1
+    if cnt >= i:  # 현재 그룹에 포함된 모험가의 수가 현재의 공포도 이상이라면, 그룹 결성 종료
+        res += 1
+        cnt = 0
+
+print(res)
+
