@@ -12,3 +12,4 @@
 | 2021.09.30 | [11060](https://www.acmicpc.net/problem/11060) |  [점프점프](https://www.acmicpc.net/problem/11060)  |  🥈2   |    🔵    |          |              |
 | 2021.10.03 |  [2178](https://www.acmicpc.net/problem/2178)  |  [미로탐색](https://www.acmicpc.net/problem/2178)   |  🥈1   |    🟡    |    🟣    |     bfs      |
 | 2021.10.14 |  [1697](https://www.acmicpc.net/problem/1697)  |  [숨바꼭질](https://www.acmicpc.net/problem/1697)   |  🥈1   |    🟡    |    🟣    |     bfs      |
+| 2021.11.07 |  [9461](https://www.acmicpc.net/problem/9461)  | [파도반수열](https://www.acmicpc.net/problem/9461)  |  🥈3   |    🔵    |          |              |
