@@ -17,3 +17,4 @@ for i in range(q):
 
 for i in range(len(f)):
     print(f[i])
+    
