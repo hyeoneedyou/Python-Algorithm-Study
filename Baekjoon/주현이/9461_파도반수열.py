@@ -1,19 +1,13 @@
-t = int(input())
+c = int(input())
+n = [int(input()) for _ in range(c)]
 
+dp = [0] * 101
+dp[0] = 1
+dp[1] = 1
+dp[2] = 1
 
-def p(x):
-    ans = 0
-    # 1 1 1 2 2 3 4 5 7 9
-    c = [1, 1, 1, 2, 2]
-    if x <= 5:
-        return c[x-1]
-    if x > 5:
-        for i in range(5, x):
-            c[i] = c[i-3] + c[i-2]
-        return c[x-1]
+for i in range(3, max(n)):
+    dp[i] = dp[i - 3] + dp[i - 2]
 
-
-for _ in range(t):
-    x = int(input())
-    print(p(x))
-    
+for i in n:
+    print(dp[i - 1])
