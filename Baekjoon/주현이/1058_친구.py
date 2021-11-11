@@ -1,27 +1,20 @@
-n = int(input())
+N = int(input())
+friend = [list(input()) for _ in range(N)] # 2차원 리스트
+visited = [[0 for _ in range(N)] for _ in range(N)]
 
-a = [ [] for _ in range(n)]
+result = 0
 
-ans = []
 
-for i in range(n):
-    s = input()
-    for j in range(len(s)):
-        if s[j] == 'Y':
-            a[i].append(1)
-        else:
-            a[i].append(0)
-            
+for i in range(N): # A
+  for j in range(N): # C
+    for k in range(N): # B
+      if i == k: # 본인 패스
+        continue
+      if (friend[i][j] == "Y" and friend[j][k] == "Y") or friend[i][k] == "Y":
+        visited[i][k] =1 # 친구
 
-for i in range(n):
-    ans.append(a[i].count(1))
-    
-print(a)
-for i in range(n):
-    for j in range(len(s)):
-        if a[i][j] == 1:
-            for k in range(i+1, n):
-                if a[k][j] == 1:
-                    ans[i] += 1
-                    ans[j] += 1
-print(max(ans))
+for i in visited:
+  result = max(result, sum(i))
+
+print(result)
+
