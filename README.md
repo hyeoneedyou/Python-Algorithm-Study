@@ -110,6 +110,8 @@
 | 10/10 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [11724](https://www.acmicpc.net/problem/11724) | [연결 ](https://www.acmicpc.net/problem/11724) |
 | 10/14 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [1697](https://www.acmicpc.net/problem/1697) | [숨바꼭질](https://www.acmicpc.net/problem/1697) |
 | 11/7 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [9467](https://www.acmicpc.net/problem/9461) | [파도반 수열](https://www.acmicpc.net/problem/9461) |
+| 11/11 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [1058](https://www.acmicpc.net/problem/9461) | [친구](https://www.acmicpc.net/problem/1058) |
+
 
 
 </details>
