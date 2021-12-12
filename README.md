@@ -112,8 +112,7 @@
 | 11/7 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [9467](https://www.acmicpc.net/problem/9461) | [파도반 수열](https://www.acmicpc.net/problem/9461) |
 | 11/11 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [1058](https://www.acmicpc.net/problem/9461) | [친구](https://www.acmicpc.net/problem/1058) |
 | 11/14 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2467](https://www.acmicpc.net/problem/9461) | [용액](https://www.acmicpc.net/problem/2467) |
-
-
+| 12/12 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [19539](https://www.acmicpc.net/problem/19539) | [사과나무](https://www.acmicpc.net/problem/19539) |
 </details>
 
 
