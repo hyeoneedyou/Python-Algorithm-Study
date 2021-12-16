@@ -15,3 +15,5 @@
 | 2021.11.07 |  [9461](https://www.acmicpc.net/problem/9461)  | [파도반수열](https://www.acmicpc.net/problem/9461)  |  🥈3   |    🔵    |          |               |
 | 2021.11.11 |  [1058](https://www.acmicpc.net/problem/1058)  |    [친구](https://www.acmicpc.net/problem/1058)     |  🥈2   |    🟡    |          |               |
 | 2021.11.14 |  [2467](https://www.acmicpc.net/problem/2467)  |    [용액](https://www.acmicpc.net/problem/2467)     |  🥇5   |    🔴    |          | binary search |
+| 2021.12.12 | [19539](https://www.acmicpc.net/problem/19539) |  [사과나무](https://www.acmicpc.net/problem/19539)  |  🥈1   |    🟡    |    🟣    |               |
+| 2021.12.16 |  [1072](https://www.acmicpc.net/problem/1072)  |    [게임](https://www.acmicpc.net/problem/1072)     |  🥈3   |    🔴    |    🟣    |               |
