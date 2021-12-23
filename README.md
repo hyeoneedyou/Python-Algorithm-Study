@@ -110,12 +110,12 @@
 | 10/10 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [11724](https://www.acmicpc.net/problem/11724) | [연결 ](https://www.acmicpc.net/problem/11724) |
 | 10/14 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [1697](https://www.acmicpc.net/problem/1697) | [숨바꼭질](https://www.acmicpc.net/problem/1697) |
 | 11/7 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [9467](https://www.acmicpc.net/problem/9461) | [파도반 수열](https://www.acmicpc.net/problem/9461) |
-| 11/11 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [1058](https://www.acmicpc.net/problem/9461) | [친구](https://www.acmicpc.net/problem/1058) |
-| 11/14 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2467](https://www.acmicpc.net/problem/9461) | [용액](https://www.acmicpc.net/problem/2467) |
+| 11/11 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [1058](https://www.acmicpc.net/problem/1058) | [친구](https://www.acmicpc.net/problem/1058) |
+| 11/14 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [2467](https://www.acmicpc.net/problem/2467) | [용액](https://www.acmicpc.net/problem/2467) |
 | 12/12 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [19539](https://www.acmicpc.net/problem/19539) | [사과나무](https://www.acmicpc.net/problem/19539) |
 | 12/16 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | [1072](https://www.acmicpc.net/problem/1072) | [게임](https://www.acmicpc.net/problem/1072) |
 | 12/19 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [12919](https://www.acmicpc.net/problem/12919) | [A와 B 2](https://www.acmicpc.net/problem/12919) |
-| 12/23 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [20922](https://www.acmicpc.net/problem/12919) | [겹치는 건 싫어](https://www.acmicpc.net/problem/20922) |
+| 12/23 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [20922](https://www.acmicpc.net/problem/20922) | [겹치는 건 싫어](https://www.acmicpc.net/problem/20922) |
 </details>
 
 
