@@ -2,27 +2,31 @@ n = int(input())
 words = [input() for _ in range(n)]
 
 
+def is_pseudo(word, left, right):
+    while left < right:
+        if word[left] == word[right]:
+            left += 1
+            right -= 1
+        else:
+            return False
+    return True
+
+
 def check_palindrome(word):
-    mismatch = 0  # 삭제한 문자 개수
     left = 0
     right = len(word) - 1
     while left < right:
-        if word[left] == word[right]:  # 맨 앞과 맨 뒤가 같은 경우 -> 보장된 부분은 슬라이싱
+        if word[left] == word[right]:
             left += 1
             right -= 1
-        else:  # 맨 앞과 맨 뒤가 다른 경우
-            mismatch = 1
-            if word[left + 1] == word[right]:  # 맨 뒤가 보장되는 경우
-                left += 2
-                right -= 1
-            elif word[left] == word[right - 1]:  # 맨 앞이 보장되는 경우
-                left += 1
-                right -= 2
+        else:
+            is_left_pseudo = is_pseudo(word, left + 1, right)
+            is_right_pseudo = is_pseudo(word, left, right - 1)
+            if is_left_pseudo or is_right_pseudo:
+                return 1
             else:
-                mismatch = 2
-                break
-
-    return mismatch
+                return 2
+    return 0
 
 
 for i in range(n):
