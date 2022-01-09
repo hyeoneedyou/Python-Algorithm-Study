@@ -19,4 +19,5 @@
 | 2021.12.16 |  [1072](https://www.acmicpc.net/problem/1072)  |     [게임](https://www.acmicpc.net/problem/1072)      |  🥈3   |    🔴    |    🟣    |               |
 | 2021.12.19 | [12919](https://www.acmicpc.net/problem/12919) |    [A와B2](https://www.acmicpc.net/problem/12919)     |  🥈1   |    🔴    |    🟣    |   재귀함수    |
 | 2021.12.23 | [20922](https://www.acmicpc.net/problem/20922) | [겹치는건싫어](https://www.acmicpc.net/problem/20922) |  🥈2   |    🔵    |    🟣    |   투포인터    |
-| 2021.12.23 |  [1946](https://www.acmicpc.net/problem/1946)  |   [신입사원](https://www.acmicpc.net/problem/1946)    |  🥈1   |    🔵    |    🟣    |               |
+| 2021.12.26 |  [1946](https://www.acmicpc.net/problem/1946)  |   [신입사원](https://www.acmicpc.net/problem/1946)    |  🥈1   |    🔵    |    🟣    |               |
+| 2022.01.09 |  [7568](https://www.acmicpc.net/problem/7568)  |     [덩치](https://www.acmicpc.net/problem/7568)      |  🥈5   |    🔵    |          |               |
