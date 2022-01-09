@@ -94,7 +94,7 @@
 </details>
 
 <details markdown="1">
-<summary><strong>Baekjoon (2021.09.12 ~ )</strong></summary>
+<summary><strong>Baekjoon (2021.09.12 ~ 2021.12.30 )</strong></summary>
 
 <br/>
 
@@ -120,5 +120,14 @@
 | 12/30 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [17609](https://www.acmicpc.net/problem/17609) | [회문](https://www.acmicpc.net/problem/17609) |
 </details>
 
+
+<details markdown="1">
+<summary><strong>Baekjoon (2022.01.09 ~ )</strong></summary>
+
+<br/>
+
+| 날짜 | 난이도 | 번호 | 문제 이름 |
+| :--: |:------:|:----:|:---------:|
+| 1/9 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [7568](https://www.acmicpc.net/problem/7568) | [덩치](https://www.acmicpc.net/problem/7568) |
 
 ---
