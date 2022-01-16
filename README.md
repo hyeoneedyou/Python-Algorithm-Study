@@ -129,5 +129,7 @@
 | 날짜 | 난이도 | 번호 | 문제 이름 |
 | :--: |:------:|:----:|:---------:|
 | 1/9 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [7568](https://www.acmicpc.net/problem/7568) | [덩치](https://www.acmicpc.net/problem/7568) |
+| 1/16 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [1012](https://www.acmicpc.net/problem/1012) | [유기농 배추](https://www.acmicpc.net/problem/1012) |
+
 
 ---
