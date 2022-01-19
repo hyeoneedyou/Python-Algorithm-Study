@@ -1,38 +1,24 @@
-import sys
-sys.setrecursionlimit(10 ** 6)
+INF = int(1e9)
 
 n, m = map(int, input().split())
-road = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
+graph = [[INF] * (n + 1) for _ in range(n + 1)]
 
-# 건물 사이의 길에 대한 정보 저장
 for _ in range(m):
     u, v, b = map(int, input().split())
-    road[u][v] = 1
-    if b == 1:
-        road[v][u] = 1
+    graph[u][v] = 0
+    graph[v][u] = 1 if b == 0 else 0
+
+# 1 -> 2 <-> 3 -> 4
+for i in range(1, n + 1):
+    for a in range(1, n + 1):
+        for b in range(1, n + 1):
+            if a == b:
+                graph[a][b] = 0
+                continue
+            graph[a][b] = min(graph[a][b], graph[a][i] + graph[i][b])
 
 k = int(input())
-questions = [list(map(int, input().split())) for _ in range(k)]
 
-# 1 -> 2 <=> 3 -> 4
-
-
-def find_road(path, temp, goal, change=0):
-    if temp == goal:
-        print(change)
-        return
-
-    for i in range(1, n + 1):
-        if path[temp][i] == 0:
-            path[temp][i] += 1
-            if road[temp][i] == 1:
-                find_road(path, i, goal, change)
-            elif road[temp][i] == 0 and road[i][temp] == 1:
-                find_road(path, i, goal, change + 1)
-
-
-for q in questions:
-    start, end = q
-
-    temp_path = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
-    find_road(temp_path, start, end)
+for _ in range(k):
+    s, e = map(int, input().split())
+    print(graph[s][e])
