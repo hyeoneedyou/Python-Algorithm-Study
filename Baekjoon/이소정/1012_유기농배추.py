@@ -1,12 +1,18 @@
-# 10 X 8
-# 1 1 * * * * * * * * 
-# * 1 * * * * * * * * 
-# * * * * 1 * * * * * 
+# [Y][X]
+# N(행) X M(열)
+# Y Y+1
+# 1 1 * * * * * * * *  X
+# * 1 * * * * * * * *  X+1
+# * * * * 1 * * * * *  X+2
 # * * * * 1 * * * * * 
 # * * 1 1 * * * 1 1 1 
 # * * * * 1 * * 1 1 1 
 # * * * * * * * 1 1 1 
 # * * * * * * * * * * 
+
+# 가로 M(Y), 세로 N(X)
+import sys
+sys.setrecursionlimit(10**6)
 
 def make_graph(M, N, K):
   graph = [[0] * M for _ in range(N)]
@@ -15,22 +21,22 @@ def make_graph(M, N, K):
     graph[Y][X] = 1
   return graph
 
-def dfs(X, Y):
-  # 상 하 좌 우
-  dx = [0, 0, -1, 1]
-  dy = [-1, 1, 0, 0]
+def dfs(X, Y): # 행 열
+  #     상 하 좌 우
+  dx = [-1, 1, 0, 0]
+  dy = [0, 0, -1, 1]
 
+  if X<0 or X>=N or Y<0 or Y>=M:
+    return False
+
+  if  graph[X][Y] == 0:
+    return False
+
+  graph[X][Y] = 0
   for i in range(4):
     nx = X + dx[i]
     ny = Y + dy[i]
-
-    if nx < 0 or nx>=M or ny<0 or ny>=N:
-      return False
-
-    if graph[nx][ny] == 1:
-      graph[nx][ny] == 0
-      dfs(nx, ny)
-      return True
+    dfs(nx, ny)
 
 T = int(input())
 for _ in range(T):
@@ -40,8 +46,8 @@ for _ in range(T):
   for i in range(N):
     for j in range(M): 
       if graph[i][j] == 1: 
-        dfs(i, j) 
         cnt += 1
+        dfs(i, j) 
 
-print(cnt)
+  print(cnt)
 
