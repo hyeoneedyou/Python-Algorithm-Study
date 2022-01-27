@@ -23,3 +23,4 @@
 | 2022.01.09 |  [7568](https://www.acmicpc.net/problem/7568)  |      [덩치](https://www.acmicpc.net/problem/7568)       |  🥈5   |    🔵    |          |               |
 | 2022.01.16 |  [1012](https://www.acmicpc.net/problem/1012)  |   [유기농배추](https://www.acmicpc.net/problem/1012)    |  🥈2   |    🔴    |          |      dfs      |
 | 2022.01.20 | [11562](https://www.acmicpc.net/problem/11562) | [백양로브레이크](https://www.acmicpc.net/problem/11562) |  🥇4   |    🔴    |          | 플로이드-와샬 |
+| 2022.01.27 |  [2343](https://www.acmicpc.net/problem/2343)  |    [기타레슨](https://www.acmicpc.net/problem/2343)     |  🥈1   |    🔴    |          |   이진탐색    |
