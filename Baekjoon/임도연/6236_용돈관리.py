@@ -6,26 +6,24 @@ right = sum(money)
 
 
 def calculate(base):
-    remain = 0
-    withdraw_count = 0
+    remain = base
+    withdraw_count = 1
     for cost in money:
         if remain < cost:
-            temp = cost
-            while temp > 0:
-                temp -= base
-                withdraw_count += 1
-            remain = temp * (-1)
-        else:
-            remain -= cost
+            remain = base
+            withdraw_count += 1
+        remain -= cost
     return withdraw_count
 
 
+result = max(money)
 while left <= right:
     mid = (left + right) // 2
-    result = calculate(mid)
-    if result <= m:
-        right = mid - 1
-    elif result > m or mid < max(money):
+    cal = calculate(mid)
+    if cal > m or mid < max(money):
         left = mid + 1
+    else:
+        right = mid - 1
+        result = mid
 
-print(left)
+print(result)
