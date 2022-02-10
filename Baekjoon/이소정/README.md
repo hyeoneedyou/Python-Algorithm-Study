@@ -26,3 +26,4 @@
 | 2022.01.27 |  [2343](https://www.acmicpc.net/problem/2343)  |       [기타레슨](https://www.acmicpc.net/problem/2343)       |  🥈1   |    🔴    |          |          이진탐색           |
 | 2022.01.30 |  [9205](https://www.acmicpc.net/problem/9205)  | [맥주마시면서걸어가기](https://www.acmicpc.net/problem/9205) |  🥈1   |    🟡    |    🟣    | bfs\_최소구하는 문제는 아님 |
 | 2022.02.03 |  [6236](https://www.acmicpc.net/problem/6236)  |       [용돈관리](https://www.acmicpc.net/problem/6236)       |  🥈2   |    🔴    |          |          이분탐색           |
+| 2022.02.06 |  [2304](https://www.acmicpc.net/problem/2304)  |      [창고다각형](https://www.acmicpc.net/problem/2304)      |  🥈2   |    🔴    |          |                             |
