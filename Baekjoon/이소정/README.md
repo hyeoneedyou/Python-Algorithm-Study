@@ -29,3 +29,4 @@
 | 2022.02.06 |  [2304](https://www.acmicpc.net/problem/2304)  |      [창고다각형](https://www.acmicpc.net/problem/2304)      |  🥈2   |    🔴    |          |                             |
 | 2022.02.10 |  [3184](https://www.acmicpc.net/problem/3184)  |          [양](https://www.acmicpc.net/problem/3184)          |  🥈2   |    🔴    |          |  bfs로 풀었는데 dfs도 가능  |
 | 2022.02.21 |  [9465](https://www.acmicpc.net/problem/9465)  |        [스티커](https://www.acmicpc.net/problem/9465)        |  🥈1   |    🔵    |          |             dp              |
+| 2022.04.14 | [15990](https://www.acmicpc.net/problem/15990) |    [1,2,3더하기5](https://www.acmicpc.net/problem/15990)     |  🥈2   |    🟡    |    🟣    |             dp              |
