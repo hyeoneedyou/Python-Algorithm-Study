@@ -31,3 +31,4 @@
 | 2022.02.21 |  [9465](https://www.acmicpc.net/problem/9465)  |        [스티커](https://www.acmicpc.net/problem/9465)        |  🥈1   |    🔵    |          |             dp              |
 | 2022.04.14 | [15990](https://www.acmicpc.net/problem/15990) |    [1,2,3더하기5](https://www.acmicpc.net/problem/15990)     |  🥈2   |    🟡    |    🟣    |             dp              |
 | 2022.04.22 | [14501](https://www.acmicpc.net/problem/14501) |        [퇴사](https://www.acmicpc.net/problem/14501)         |  🥈3   |    🔴    |          |             dp              |
+| 2022.05.02 | [21608](https://www.acmicpc.net/problem/21608) |    [상어초등학교](https://www.acmicpc.net/problem/21608)     |  🥇5   |    🟡    |    🟣    |            구현             |
