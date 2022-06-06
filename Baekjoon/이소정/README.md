@@ -33,3 +33,5 @@
 | 2022.04.22 | [14501](https://www.acmicpc.net/problem/14501) |        [퇴사](https://www.acmicpc.net/problem/14501)         |  🥈3   |    🔴    |          |             dp              |
 | 2022.05.02 | [21608](https://www.acmicpc.net/problem/21608) |    [상어초등학교](https://www.acmicpc.net/problem/21608)     |  🥇5   |    🟡    |    🟣    |            구현             |
 | 2022.05.13 |  [1780](https://www.acmicpc.net/problem/1780)  |      [종이의개수](https://www.acmicpc.net/problem/1780)      |  🥈2   |    🟡    |    🟣    |            구현             |
+| 2022.05.15 | [14503](https://www.acmicpc.net/problem/14503) |     [로봇청소기](https://www.acmicpc.net/problem/14503)      |  🥇5   |    🟡    |    🟣    |            구현             |
+| 2022.05.26 |  [2056](https://www.acmicpc.net/problem/2056)  |         [작업](https://www.acmicpc.net/problem/2056)         |  🥇4   |    🟡    |    🟣    |             dp              |
