@@ -145,4 +145,5 @@
 | 5/15 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [14503](https://www.acmicpc.net/problem/14503) | [로봇 청소기](https://www.acmicpc.net/problem/14503) |
 | 5/26 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [2056](https://www.acmicpc.net/problem/2056) | [작업](https://www.acmicpc.net/problem/2056) |
 | 6/6 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [15685](https://www.acmicpc.net/problem/15685) | [드래곤커브](https://www.acmicpc.net/problem/15685) |
+| 6/12 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | [10026](https://www.acmicpc.net/problem/10026) | [적록색약](https://www.acmicpc.net/problem/10026) |
 ---
