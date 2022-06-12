@@ -2,7 +2,7 @@ import sys
 sys.setrecursionlimit(10**6)
 
 n = int(input())
-drawing = [input() for _ in range(n)]
+drawing = [list(input()) for _ in range(n)]
 
 red_green_diff = 0  # 적록색약이 아닌 사람
 red_green_same = 0  # 적록색약인 사람
@@ -11,12 +11,9 @@ red_green_same = 0  # 적록색약인 사람
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
-visited = [[0] * n for _ in range(n)]
-rgs = False
 
-
-def dfs(x, y, color, is_rgs):
-    global visited, rgs
+def dfs(x, y, color):
+    global visited
 
     visited[x][y] = 1
 
@@ -28,22 +25,27 @@ def dfs(x, y, color, is_rgs):
         if visited[nx][ny] == 1:
             continue
 
-        if (color == "R" and drawing[nx][ny] == "G") or (color == "G" and drawing[nx][ny] == "R"):
-            dfs(nx, ny, color, True)
-            rgs = True
-        elif drawing[nx][ny] == color:
-            dfs(nx, ny, color, is_rgs)
+        if drawing[nx][ny] == color:
+            dfs(nx, ny, color)
 
 
+visited = [[0] * n for _ in range(n)]
 for i in range(n):
     for j in range(n):
         if visited[i][j] != 1:
-            rgs = False
-            dfs(i, j, drawing[i][j], False)
-            print(visited, rgs)
-            if rgs:
-                red_green_diff += 1
+            dfs(i, j, drawing[i][j])
             red_green_diff += 1
+
+for i in range(n):
+    for j in range(n):
+        if drawing[i][j] == "R":
+            drawing[i][j] = "G"
+
+visited = [[0] * n for _ in range(n)]
+for i in range(n):
+    for j in range(n):
+        if visited[i][j] != 1:
+            dfs(i, j, drawing[i][j])
             red_green_same += 1
 
 print(red_green_diff, red_green_same)
