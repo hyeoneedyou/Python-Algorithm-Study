@@ -35,3 +35,4 @@
 | 2022.05.13 |  [1780](https://www.acmicpc.net/problem/1780)  |      [종이의개수](https://www.acmicpc.net/problem/1780)      |  🥈2   |    🟡    |    🟣    |            구현             |
 | 2022.05.15 | [14503](https://www.acmicpc.net/problem/14503) |     [로봇청소기](https://www.acmicpc.net/problem/14503)      |  🥇5   |    🟡    |    🟣    |            구현             |
 | 2022.05.26 |  [2056](https://www.acmicpc.net/problem/2056)  |         [작업](https://www.acmicpc.net/problem/2056)         |  🥇4   |    🟡    |    🟣    |             dp              |
+| 2022.06.07 | [15685](https://www.acmicpc.net/problem/15685) |     [드래곤커브](https://www.acmicpc.net/problem/15685)      |  🥇4   |    🔴    |          |            구현             |
