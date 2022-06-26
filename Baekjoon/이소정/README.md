@@ -37,3 +37,4 @@
 | 2022.05.26 |  [2056](https://www.acmicpc.net/problem/2056)  |         [작업](https://www.acmicpc.net/problem/2056)         |  🥇4   |    🟡    |    🟣    |             dp              |
 | 2022.06.07 | [15685](https://www.acmicpc.net/problem/15685) |     [드래곤커브](https://www.acmicpc.net/problem/15685)      |  🥇4   |    🔴    |          |            구현             |
 | 2022.06.12 | [10026](https://www.acmicpc.net/problem/10026) |      [적록색약](https://www.acmicpc.net/problem/10026)       |  🥇5   |    🟡    |    🟣    |             dfs             |
+| 2022.06.20 | [14728](https://www.acmicpc.net/problem/14728) |      [벼락치기](https://www.acmicpc.net/problem/14728)       |  🥇5   |    🔴    |          |             dp              |
